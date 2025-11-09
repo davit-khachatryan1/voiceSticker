@@ -11,4 +11,4 @@ bucket_name = "voicesticker-media"
 [vars]
 ENVIRONMENT = "production"
 TELEGRAM_BOT_TOKEN = "8339963532:AAEdcjnyUZCMjcwtgmwbXsJgOFa1xg2DGVU"
-ALLOWED_ORIGINS = "https://yourdomain.com,https://yourdomain.vercel.app"
+ALLOWED_ORIGINS = "https://voice-sticker-telegram-webapp-65fp.vercel.app,https://voice-sticker-whatsapp-pwa.vercel.app"
