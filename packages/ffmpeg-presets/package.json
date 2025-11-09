@@ -1,0 +1,9 @@
+{
+  "name": "@voicesticker/ffmpeg-presets",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "echo 'No build needed for shell scripts'",
+    "clean": "echo 'No clean needed'"
+  }
+}
+
