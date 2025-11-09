@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "pages404": true,
+  "basePath": "",
+  "redirects": [],
+  "rewrites": [],
+  "headers": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/",
+      "routeKeys": {},
+      "namedRegex": "^/(?<nextLocale>default)?$"
+    }
+  ],
+  "dynamicRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "prefetchRscHeader": "Next-Router-Prefetch-RSC"
+  },
+  "dataRoutes": []
+}
+

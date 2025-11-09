@@ -14,8 +14,6 @@ const nextConfig = {
     // Don't run TypeScript check during build (Vercel will handle it)
     ignoreBuildErrors: true,
   },
-  // Disable build ID generation for static export
-  generateBuildId: undefined,
 };
 
 module.exports = nextConfig;
