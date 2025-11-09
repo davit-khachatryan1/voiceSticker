@@ -2,14 +2,13 @@ name = "voicesticker-worker"
 main = "src/index.ts"
 compatibility_date = "2024-01-01"
 
-[env.production]
-vars = { ENVIRONMENT = "production" }
-
-[[env.production.r2_buckets]]
+# R2 Bucket binding
+[[r2_buckets]]
 binding = "R2_BUCKET"
 bucket_name = "voicesticker-media"
 
-[env.production.vars]
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
 TELEGRAM_BOT_TOKEN = "your_bot_token_here"
 ALLOWED_ORIGINS = "https://yourdomain.com,https://yourdomain.vercel.app"
-

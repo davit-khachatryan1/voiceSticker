@@ -1,0 +1,20 @@
+VoiceSticker Setup Summary
+==========================
+
+QUICK SETUP (5 minutes):
+1. Cloudflare Worker: wrangler deploy
+2. Vercel Frontend: vercel --prod (both apps)
+3. Telegram Bot: @BotFather → /newbot → /setdomain
+4. Test!
+
+DETAILED GUIDES:
+- QUICK_START.md - Fast 5-minute setup
+- COMPLETE_SETUP_GUIDE.md - Full step-by-step guide
+- DEPLOYMENT.md - Architecture details
+
+KEY FILES:
+- worker/wrangler.toml - Worker configuration
+- apps/*/next.config.js - Frontend configs
+- apps/*/.env.local - Environment variables
+
+COST: $0/month (all free tiers)

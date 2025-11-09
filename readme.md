@@ -1,6 +1,24 @@
-# VoiceSticker
+# VoiceSticker 🎤
 
-VoiceSticker is a platform that lets users send animated "sticker-looking" clips with their own voice in Telegram and WhatsApp chats. The video is generated from animated rigs (Lottie/AE) driven by lip-sync and emotion curves - no camera video is recorded.
+VoiceSticker is a platform that lets users send animated "sticker-looking" clips with their own voice in Telegram and WhatsApp chats. The video is generated client-side using canvas animation + MediaRecorder - **zero server costs, zero GPU needed**.
+
+## 🚀 Quick Start
+
+**5-minute setup:**
+1. Deploy Cloudflare Worker (free)
+2. Deploy frontend to Vercel (free)
+3. Setup Telegram bot
+4. Start creating voice stickers!
+
+👉 **See [QUICK_START.md](./QUICK_START.md) for fast setup**  
+👉 **See [COMPLETE_SETUP_GUIDE.md](./COMPLETE_SETUP_GUIDE.md) for detailed instructions**
+
+## 💰 Cost: $0/month
+
+- Cloudflare Worker: 100k requests/day (free)
+- R2 Storage: 10GB (free)
+- Vercel: 100GB bandwidth/month (free)
+- **Total: ~$0/month for MVP**
 
 ## Project Structure
 
