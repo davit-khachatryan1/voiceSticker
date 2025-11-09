@@ -1,6 +1,5 @@
 // Client-side canvas + mic recording using MediaRecorder
-import { Viseme, Mood } from '@voicesticker/types';
-import { getEmotionCurveForFrame } from '@voicesticker/types';
+import { Viseme, Mood, getEmotionCurveForFrame } from '@/types';
 
 export interface RecordingOptions {
   canvas: HTMLCanvasElement;

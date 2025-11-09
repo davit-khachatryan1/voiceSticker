@@ -28,10 +28,11 @@ wrangler deploy
 # Install Vercel CLI
 npm install -g vercel
 
-# Deploy Telegram WebApp
+# Deploy Telegram WebApp (Vercel will build automatically)
 cd apps/telegram-webapp
 echo "NEXT_PUBLIC_WORKER_URL=https://YOUR_WORKER_URL" > .env.local
 vercel --prod
+# Note: If local build fails, that's okay - Vercel builds it for you!
 
 # Deploy WhatsApp PWA
 cd ../whatsapp-pwa

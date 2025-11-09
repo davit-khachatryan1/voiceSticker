@@ -8,8 +8,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
+    "build": "npm run build --workspace=packages/types && turbo run build",
+    "build:types": "npm run build --workspace=packages/types",
+    "dev": "npm run build:types && turbo run dev",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
     "clean": "turbo run clean"

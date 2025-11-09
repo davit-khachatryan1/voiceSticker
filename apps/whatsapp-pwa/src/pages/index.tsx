@@ -5,7 +5,7 @@ import { RecordButton } from '@/components/RecordButton';
 import { CanvasRecorder } from '@/lib/canvas-recorder';
 import { processClientLipSync } from '@/lib/client-lipsync';
 import { uploadToWorker } from '@/lib/api';
-import { Mood, Viseme } from '@voicesticker/types';
+import { Mood, Viseme } from '@/types';
 
 const STYLES = [
   { id: 'bear', name: 'Bear', emoji: '🐻' },

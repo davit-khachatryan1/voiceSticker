@@ -5,20 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Required for Telegram WebApp embedding
-  async headers() {
-    return [
-      {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'X-Frame-Options',
-            value: 'SAMEORIGIN',
-          },
-        ],
-      },
-    ];
-  },
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;

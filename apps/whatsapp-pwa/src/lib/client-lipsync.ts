@@ -1,6 +1,5 @@
 // Client-side lip-sync using Web Speech API or simple phoneme estimation
-import { Viseme, Mood } from '@voicesticker/types';
-import { applyEmotionToVisemes } from '@voicesticker/types';
+import { Viseme, Mood, applyEmotionToVisemes } from '@/types';
 
 export async function estimatePhonemesFromAudio(
   audioBlob: Blob,
